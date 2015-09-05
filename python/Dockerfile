@@ -5,7 +5,7 @@ RUN apk add --update \
     python3-dev \
     py-pip \
     build-base \
-    netcat-openbsd \
+    curl \
   && pip install virtualenv \
   && rm -rf /var/cache/apk/*
 
